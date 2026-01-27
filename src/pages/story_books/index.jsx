@@ -36,6 +36,12 @@ export function StoryBooksPage() {
           Charlie era um robô criado para substituir a filha morta de Henry, e
           toda a história gira em torno da dor, da obsessão e das consequências
           dos crimes de Afton.
+
+          <address>
+            <p>Criador dos textos: 
+              <a href="https://www.tiktok.com/@erosmedinanzz">Éros Medina</a>
+            </p>
+          </address>
         </p>
         <hr />
         <p className="p p2 p-div">
@@ -70,6 +76,12 @@ export function StoryBooksPage() {
           animatrônico assassino. Livro 12 – Felix the Shark Um animatrônico
           tubarão concede desejos perigosos. Um garoto encontra uma pizzaria
           submersa. Uma história sobre culpa e consequências.
+        
+          <address>
+            <p>Criador dos textos: 
+              <a href="https://www.tiktok.com/@erosmedinanzz">Éros Medina</a>
+            </p>
+          </address>
         </p>
       </DivText>
     </>

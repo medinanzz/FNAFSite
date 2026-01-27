@@ -296,6 +296,12 @@ export function StoryGamesPage() {
           implícito que: o sistema está sendo usado para treinar uma
           inteligência cada ação do jogador é observada os erros e reações
           humanas estão sendo registrados Essa inteligência é o Mimic.
+
+          <address>
+            <p>Criador dos textos: 
+              <a href="https://www.tiktok.com/@erosmedinanzz">Éros Medina</a>
+            </p>
+          </address>
         </p>
       </DivText>
     </>

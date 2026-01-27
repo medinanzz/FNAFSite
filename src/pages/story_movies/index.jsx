@@ -83,6 +83,12 @@ export function StoryMoviesPage() {
           prédio abandonado e encontrando um animatrônico antigo, ligado a
           eventos passados, sugerindo que novos horrores ainda não desapareceram
           completamente.
+
+          <address>
+            <p>Criador dos textos: 
+              <a href="https://www.tiktok.com/@erosmedinanzz">Éros Medina</a>
+            </p>
+          </address>
         </p>
       </DivText>
     </>

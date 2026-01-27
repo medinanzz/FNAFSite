@@ -17,4 +17,12 @@ export const DivText = styled.div`
     .p2 {
         margin-top: 1em;
     }
+
+    .p {
+        a {color: black; text-decoration: none; margin-left: .3em;}
+        a:hover {text-decoration: underline;}
+        address {
+            margin-top: 1em;
+        }
+    }
 `;
