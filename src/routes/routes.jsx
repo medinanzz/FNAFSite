@@ -9,7 +9,7 @@ export function RoutesPage() {
     return(
         <>
             <Routes>
-                <Route path="/" element={<Layout />} />
+                <Route element={<Layout />} />
                 <Route index element={<HomePage />} />
                 <Route path="/games" element={<StoryGamesPage />} />
                 <Route path="/books" element={<StoryBooksPage />} />
