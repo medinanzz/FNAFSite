@@ -9,11 +9,12 @@ export function RoutesPage() {
     return(
         <>
             <Routes>
-                <Route element={<Layout />} />
-                <Route index element={<HomePage />} />
-                <Route path="/games" element={<StoryGamesPage />} />
-                <Route path="/books" element={<StoryBooksPage />} />
-                <Route path="/movies" element={<StoryMoviesPage />} />
+                <Route element={<Layout />}>
+                    <Route index element={<HomePage />} />
+                    <Route path="games" element={<StoryGamesPage />} />
+                    <Route path="books" element={<StoryBooksPage />} />
+                    <Route path="movies" element={<StoryMoviesPage />} />
+                </Route>
             </Routes>
         </>
     )

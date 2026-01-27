@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export const BtnBack = styled.a`
+export const BtnBack = styled(Link)`
 
     font-size: 1.5em;
     text-decoration: none;

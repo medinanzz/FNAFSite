@@ -1,9 +1,10 @@
+// import { Link } from "react-router-dom";
 import { BtnBack } from "./styles";
 
 export function ButtonBack() {
     return(
         <>
-            <BtnBack href="/">&lt;- Voltar</BtnBack>
+            <BtnBack to="/">&lt;- Voltar</BtnBack>
         </>
     )
 }
