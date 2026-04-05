@@ -21,18 +21,36 @@ export const DivMain = styled.div`
     a {
         color: #000;
         text-decoration: none;
-        transition: .2s;
-        /* padding: 0; */
-        width: 210px;
+        transition: 1s;
+        position: relative;
+        z-index: 1;
+        width: 200px;
         height: 7dvh;
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 1.25em;
+        overflow: hidden;
+        border-radius: .5em;
 
         &:hover {
-            scale: 1.1;
-            box-shadow: 0 0 10px rgb(0 0 0 / .5);
+            color: white;
         }
+    }
+
+    a::before {
+        left: -230px;
+        width: 220px;
+        height: 100%;
+        background-color: #25242a;
+        border-radius: 0em 1em 1em 0;
+        position: absolute;
+        transition: .6s;
+        z-index: -1;
+        content: '';
+    }
+
+    a:hover::before {
+        left: 0;
     }
 `;
